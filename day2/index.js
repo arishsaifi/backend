@@ -6,7 +6,7 @@ app.get("/",(req,res)=>{
 })
 
 app.get("/about",(req,res)=>{
-    res.sendFile(__dirname,"/index.html");
+    res.sendFile(__dirname +"/index.html");
 })
 
 app.listen(3000,()=>{
